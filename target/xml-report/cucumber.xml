@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="10.993" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US1004 Amazonda listeden ilk urunun dogru oldugunu test eder" name="TC08 ilk urun ismi arattirdigimiz kelimeyi icermeli" time="10.845">
+<system-out><![CDATA[
+Given kullanici "amazonUrl" anasayfaya gider................................passed
+Then arama kutusuna "Nutella" yazip, ENTER tusuna basar.....................passed
+When ilk urunu tiklar.......................................................passed
+Then urun isminde "Nutella" oldugunu test eder..............................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
