@@ -99,5 +99,4 @@ public class AmazonStepdefinitions {
         Assert.assertTrue(amazonPage.ilkUrunIsimElementi.getText().contains(istenenIcerik));
     }
 
-
 }
