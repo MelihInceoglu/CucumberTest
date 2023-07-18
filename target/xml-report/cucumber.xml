@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="16.058" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="US1010 Kullanici hesap olusturabilmeli" name="TC16 kullanici girdigi degerlerle hesap olusturabilmeli" time="15.921">
+<testsuite name="Cucumber" time="0.857" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US1011 Excel otomasyonu" name="TC17 kullanici excel dosyasini testlerde kullanabilmeli" time="0.702">
 <system-out><![CDATA[
-Given kullanici "automationUrl" anasayfaya gider............................passed
-And user sign up linkine tiklar.............................................passed
-And user Create an account bolumune email adresi girer......................passed
-And signUp butonuna basar...................................................passed
-And user kisisel bilgilerini ve iletisim bilgilerini girer..................passed
-And user Create Account butonuna basar......................................passed
-Then hesap olustugunu test edin.............................................passed
+Given kullanici excel dosyasini kullanabilecegi ayarlari yapar..............passed
+Then indexi 5 olan satirdaki indexi 3 olan hucreyi yazdirir.................passed
+And baskenti "Ankara" olan ulkenin ingilizce ismini yazdirir................passed
+And Ulke sayisininin 190 oldugunu test eder.................................passed
+And Fiziki olarak kullanilan satir sayisinin 191 oldugunu test eder.........passed
+And baskenti "Amsterdam" olan ulkenin tum bilgilerini yazdirir..............passed
 ]]></system-out>
 </testcase>
 </testsuite>

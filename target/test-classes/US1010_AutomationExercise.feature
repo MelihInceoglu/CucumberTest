@@ -1,6 +1,6 @@
 Feature: US1010 Kullanici hesap olusturabilmeli
 
-  @wip
+
 
   Scenario: TC16 kullanici girdigi degerlerle hesap olusturabilmeli
 
